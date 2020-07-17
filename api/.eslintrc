@@ -1,0 +1,17 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+        "node": true
+    },
+    "rules": {
+        "no-console": "off",
+        "import/no-unresolved": "off"
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            }
+        }
+    }
+}
